@@ -1,0 +1,24 @@
+services:
+
+  server:
+      container_name: server
+      image: server
+      restart: on-failure
+      ports:
+        - 8080:8080
+      networks:
+        - service-network
+
+  webapp:
+    container_name: webapp
+    image: webapp
+    restart: on-failure
+    ports:
+      - 3000:3000
+    networks:
+      - service-network
+
+networks:
+  service-network:
+    name: service-network
+    external: true

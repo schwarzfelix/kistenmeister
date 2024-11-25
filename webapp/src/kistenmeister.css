@@ -1,0 +1,161 @@
+
+.km-nav {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    cursor: default;
+}
+
+.km-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    background-color: rgb(35, 35, 35);
+}
+
+.km-nav-item {
+    display: inline-block;
+    margin: 0;
+    padding: 8px;
+    width: 25%;
+
+    cursor: pointer;
+    color: white;
+    background-color: rgb(35, 35, 35);
+    border-radius: 0px 0px 8px 8px;
+    transition: 0.2s;
+}
+.km-nav-item:hover {
+    background-color: #0d6efd;
+}
+.km-nav-item-active {
+    display: inline-block;
+    margin: 0;
+    padding: 8px;
+    width: 25%;
+
+    color: black;
+    background-color: #ffffff;
+    border-radius: 0px 0px 8px 8px;
+}
+.km-nav-text {
+    margin: 0;
+    padding: 0;
+    font-size: smaller;
+    text-align: center;
+}
+.km-nav-icon {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.km-section {
+    margin: 10px 0px;
+    padding: 10px 0px;
+}
+.km-form-space {
+    margin: 10px 0px;
+}
+.km-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.km-qrcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.km-bubble {
+    margin: 12px;
+    padding: 0px;
+    background: linear-gradient(90deg, rgba(13,110,253, 1), rgba(13,110,253, 0.5));
+    border-radius: 0px 0px 24px 24px;
+}
+.km-bubble-inside {
+    padding: 12px;
+}
+.km-bubble-content {
+    color: white;
+    font-size: larger;
+}
+.km-bubble-meta {
+    color: lightgray;
+    font-size: smaller;
+}
+.km-bubble-header {
+    background-color: white;
+    border-radius: 0px 0px 0px 24px;
+    height: 24px;
+}
+.km-image {
+    margin: 24px 0px 0px 0px;
+    padding: 12px 0px 0px 0px;
+    border: 4px solid lightgray;
+    background-color: lightgray;
+    border-radius: 12px;
+}
+.km-image img{
+    width: 100%;
+    background-color: lightgray;
+}
+.km-img-foot {
+    margin: 0px;
+    padding: 12px;
+    background-color: lightgray;
+}
+.km-btn-in-list {
+    margin: 0px 12px 0px 0px;
+    padding: 0px 12px 0px 0px;
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.km-header {
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+}
+.km-header-link {
+    margin: 0px 0px;
+    padding: 6px 6px;
+    width: 130px;
+
+    text-align: center;
+    border-radius: 8px;
+
+    transition: 0.2s;
+}
+.km-header-link:hover {
+    color: white;
+    background-color: #0d6efd;
+}
+
+.km-page-content {
+    margin: 0px 0px;
+    padding: 80px 0px;
+}
+
+.km-login-text {
+    margin: 10px;
+    padding: 10px;
+}
+
+.km-logintable {
+    background-color: red !important;
+    font-family: math;
+}
